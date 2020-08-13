@@ -43,4 +43,5 @@ server.sendmail(msg['From'], msg['To'], msg.as_string())
  
 server.quit()
  
-pyautogui.alert("successfully sent email to "+str(to_address))
+pyautogui.alert("successfully sent email to "+str(to_address)+". done")
+
